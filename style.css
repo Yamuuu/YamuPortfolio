@@ -1,0 +1,90 @@
+:root {
+    --border-image: linear-gradient(90deg, rgba(13,13,13,1) 0%, rgba(188,208,215,1) 27%, rgba(255,255,255,1) 55%, rgba(188,208,215,1) 84%, rgba(13,13,13,1) 100%);
+}
+
+@font-face{
+    font-family: 'Cabin';
+    src: url('fonts/Cabin-VariableFont_wdth\,wght.ttf');
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0 10%;
+    background-color: #0D0D0D;;
+    color: #ffffff;
+    
+}
+
+main{
+    align-content: center;
+
+}
+
+#logo{
+    height: 10vh;
+    width: auto;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    margin: 1em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+nav ul li a{
+    display: inline;
+    text-decoration: none;
+    color: #BCD0D7;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.navLeft{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navRight{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+#LinkedIn{
+    height: 5em;
+    width: auto;
+}
+
+#linkedin{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 2.5em;
+}
+
+#About{
+    background-color: rgba(188, 208, 215, 0.25);
+    width: 75%;
+    padding: .5em;
+    height: 50%;
+    border: 2px solid transparent; 
+    border-image: var(--border-image) 1;
+    border-radius: 10px;
+}
+
+#aboutContent{
+    opacity: 1;
+}

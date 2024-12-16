@@ -1,0 +1,33 @@
+label{
+    color: #809FA6;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: #0D0D0D;
+    color: #ffffff;
+
+    font-size: large;
+}
+
+#name{
+ display: flex;
+ flex-direction: row;
+}
+
+#nameField{
+    display: flex;
+    flex-direction: column;
+}
+
+#nameField{
+    display: flex;
+    flex-direction: column;
+}
+
+#submit{
+    width: 100%;
+    margin-top: 1.5em;
+    background-color: #809FA6 ;
+}
